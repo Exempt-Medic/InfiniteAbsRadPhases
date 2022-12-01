@@ -7,7 +7,7 @@ namespace InfiniteAbsRadPhases
 {
     public static class ModMenu
     {
-        private static Menu MenuRef;
+        private static Menu? MenuRef;
         public static MenuScreen CreateModMenu(MenuScreen modlistmenu)
         {
             MenuRef ??= new Menu("AbsRad Phase Options", new Element[]
@@ -17,7 +17,7 @@ namespace InfiniteAbsRadPhases
                 f =>
                 {
                     InfiniteAbsRadPhasesMod.globalSettings.InfinitePhase = (int)f;
-                    MenuRef.Update();
+                    MenuRef?.Update();
                 },
                 () => InfiniteAbsRadPhasesMod.globalSettings.InfinitePhase,
                 1f,
