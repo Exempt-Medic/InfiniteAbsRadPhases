@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteAbsRadPhases", "InfiniteAbsRadPhases\InfiniteAbsRadPhases.csproj", "{2A9F9C04-305E-448C-8E0D-4168A1A6B34B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{9FC10588-18E9-4DB9-9127-EB898C29B702}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\dependabot.yml = .github\dependabot.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A9F9C04-305E-448C-8E0D-4168A1A6B34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9F9C04-305E-448C-8E0D-4168A1A6B34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9F9C04-305E-448C-8E0D-4168A1A6B34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9F9C04-305E-448C-8E0D-4168A1A6B34B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABCA4172-1566-41B5-A259-2691508F1C65}
+	EndGlobalSection
+EndGlobal
